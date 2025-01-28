@@ -1,0 +1,9 @@
+.navmenu > span {
+    background-color: #FAEBD7;
+    padding: 8px;
+    margin: 4px;
+}
+
+.navmenu > span > a {
+    text-decoration: none;
+}
