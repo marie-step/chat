@@ -40,7 +40,9 @@ TODO - submit form.<br/>
         xhr.send();
     }
 
-    window.onload = fetchMessages();
+    window.onload = fetchMessages()
+    setInterval(fetchMessages, 5000);
+
 </script>
 
 <div id="messages" style="border: 1px solid #ccc; height: 300px; overflow-y: scroll; padding: 10px;"></div>
